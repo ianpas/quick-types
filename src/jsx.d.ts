@@ -75,6 +75,50 @@ declare namespace JSX
     }
 
     /**
+     * 基础组件
+     */
+    interface IntrinsicElements
+    {
+        /**
+         * @type {QuickApp.HTMLAnchorElement} 超链接（默认不带下划线。文本内容写在标签内容区，支持转义字符"\"
+         * @see {@link https://doc.quickapp.cn/widgets/a.html }
+         */
+        a: QuickApp.HTMLAnchorElement;
+
+        /**
+         * @type {QuickApp.HTMLImageElement} 渲染图片
+         * @see {@link https://doc.quickapp.cn/widgets/image.html }
+         */
+        image: QuickApp.HTMLImageElement;
+
+         /**
+         * @type {QuickApp.HTMLProgressElement} 进度条
+         * @see {@link https://doc.quickapp.cn/widgets/progress.html }
+         */
+        progress: QuickApp.HTMLProgressElement;
+
+        /**
+         * @type {QuickApp.HTMLRatingElement} 星级评分
+         * @see {@link https://doc.quickapp.cn/widgets/rating.html }
+         */
+        rating: QuickApp.HTMLRatingElement;
+
+        /**
+         * @type {QuickApp.HTMLSpanElement} 格式化的文本，只能作为<text>与<a>的子组件
+         * @see {@link https://doc.quickapp.cn/widgets/span.html }
+         */
+        span: QuickApp.HTMLSpanElement;
+
+         /**
+         * @type {QuickApp.HTMLTextElement} 文本。文本内容写在标签内容区，支持转义字符"\"
+         * @see {@link https://doc.quickapp.cn/widgets/text.html }
+         */
+        text: QuickApp.HTMLTextElement;
+    }
+
+    
+
+    /**
      * 表单组件
      */
     interface IntrinsicElements
@@ -84,5 +128,47 @@ declare namespace JSX
          * @see {@link https://doc.quickapp.cn/widgets/input.html }
          */
         input: QuickApp.HTMLInputElement;
+
+        /**
+         * @type {QuickApp.HTMLLabelElement} 为 input、textarea 组件定义标注
+         * @see {@link https://doc.quickapp.cn/widgets/label.html }
+         */
+        label: QuickApp.HTMLLabelElement;
+
+        /**
+         * @type {QuickApp.HTMLOptionElement} <select>的子组件，用来展示下拉选择具体项目
+         * @see {@link https://doc.quickapp.cn/widgets/option.html }
+         */
+        option: QuickApp.HTMLOptionElement;
+
+        /**
+         * @type {QuickApp.HTMLPickerElement} 滚动选择器，目前支持四种选择器，普通选择器，日期选择器，时间选择器，多列文本选择器1010+。默认为普通选择器。
+         * @see {@link https://doc.quickapp.cn/widgets/picker.html }
+         */
+        picker: QuickApp.HTMLPickerElement;
+
+        /**
+         * @type {QuickApp.HTMLSelectElement} 下拉选择按钮，点击会弹出一个包含所有可选值的下拉菜单，从该菜单中可以选择一个新值
+         * @see {@link https://doc.quickapp.cn/widgets/select.html }
+         */
+        select: QuickApp.HTMLSelectElement;
+
+        /**
+         * @type {QuickApp.HTMLSliderElement} 滑动选择器
+         * @see {@link https://doc.quickapp.cn/widgets/slider.html }
+         */
+        slider: QuickApp.HTMLSliderElement;
+
+        /**
+         * @type {QuickApp.HTMLSwitchElement} 开关选择
+         * @see {@link https://doc.quickapp.cn/widgets/switch.html }
+         */
+        switch: QuickApp.HTMLSwitchElement;
+
+        /**
+         * @type {QuickApp.HTMLTextAreaElement} 提供可交互的界面，接收用户的输入，默认为多行
+         * @see {@link https://doc.quickapp.cn/widgets/textarea.html }
+         */
+        textarea: QuickApp.HTMLSwitchElement;
     }
 }
