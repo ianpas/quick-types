@@ -4,6 +4,7 @@ import UxModule from "../ux-module.ux";
 import styles from "../main.css";
 import styles2 from "../main.scss";
 import styles3 from "../main.less";
+import { JsxEmit } from "typescript";
 
 const div = <div
     id="1"
@@ -20,3 +21,42 @@ const input = <input
     onclick={(e: QuickApp.ClickEvent) => { }}
 />;
 
+const list = <list>
+
+</list>;
+
+const list_item = <list-item>
+
+</list-item>;
+
+const popup = <popup>
+
+</popup>;
+
+const refresh =<refresh>
+
+</refresh>;
+
+const richtext = <richtext>
+
+</richtext>;
+
+const stack =<stack>
+
+</stack>;
+
+const swiper = <swiper>
+
+</swiper>;
+
+const tabs = <tabs>
+
+</tabs>;
+
+const tab_bar =<tab-bar>
+
+</tab-bar>;
+
+const tab_content = <tab-content>
+
+</tab-content>;
