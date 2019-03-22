@@ -1,5 +1,5 @@
 {
-  "name": "@types/quickapp",
+  "name": "quick-types",
   "version": "0.0.1",
   "description": ".d.ts files for quick app",
   "main": "./src/index.js",
