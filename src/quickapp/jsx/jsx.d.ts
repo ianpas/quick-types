@@ -1,4 +1,4 @@
-/// <reference path="./quickapp.d.ts" />
+/// <reference path="../quickapp.d.ts" />
 
 declare namespace JSX
 {
@@ -65,13 +65,13 @@ declare namespace JSX
         * @type {QuickApp.HTMLTabBarElement} <tabs>的子组件，用来展示 tab 的标签区，子组件排列方式为横向排列
         * @see {@link https://doc.quickapp.cn/widgets/tab-bar.html }
         */
-       "tab-bar": QuickApp.HTMLTabBarElement;
+        "tab-bar": QuickApp.HTMLTabBarElement;
 
-       /**
-        * @type {QuickApp.HTMLTabContentElement} <tabs>的子组件，用来展示 tab 的内容区，高度默认充满 tabs 剩余空间，子组件排列方式为横向排列
-        * @see {@link https://doc.quickapp.cn/widgets/tab-content.html }
-        */
-       "tab-content": QuickApp.HTMLTabContentElement;
+        /**
+         * @type {QuickApp.HTMLTabContentElement} <tabs>的子组件，用来展示 tab 的内容区，高度默认充满 tabs 剩余空间，子组件排列方式为横向排列
+         * @see {@link https://doc.quickapp.cn/widgets/tab-content.html }
+         */
+        "tab-content": QuickApp.HTMLTabContentElement;
     }
 
     /**
@@ -91,10 +91,10 @@ declare namespace JSX
          */
         image: QuickApp.HTMLImageElement;
 
-         /**
-         * @type {QuickApp.HTMLProgressElement} 进度条
-         * @see {@link https://doc.quickapp.cn/widgets/progress.html }
-         */
+        /**
+        * @type {QuickApp.HTMLProgressElement} 进度条
+        * @see {@link https://doc.quickapp.cn/widgets/progress.html }
+        */
         progress: QuickApp.HTMLProgressElement;
 
         /**
@@ -109,14 +109,14 @@ declare namespace JSX
          */
         span: QuickApp.HTMLSpanElement;
 
-         /**
-         * @type {QuickApp.HTMLTextElement} 文本。文本内容写在标签内容区，支持转义字符"\"
-         * @see {@link https://doc.quickapp.cn/widgets/text.html }
-         */
+        /**
+        * @type {QuickApp.HTMLTextElement} 文本。文本内容写在标签内容区，支持转义字符"\"
+        * @see {@link https://doc.quickapp.cn/widgets/text.html }
+        */
         text: QuickApp.HTMLTextElement;
     }
 
-    
+
 
     /**
      * 表单组件
@@ -170,5 +170,13 @@ declare namespace JSX
          * @see {@link https://doc.quickapp.cn/widgets/textarea.html }
          */
         textarea: QuickApp.HTMLSwitchElement;
+    }
+}
+
+declare namespace JSX
+{
+    interface ElementAttributesProperty
+    {
+        props;
     }
 }

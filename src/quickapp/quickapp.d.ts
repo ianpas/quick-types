@@ -1,3 +1,5 @@
+/// <reference path="./jsx/jsx.d.ts" />
+
 /// <reference path="./components/container.d.ts" />
 /// <reference path="./components/basic.d.ts" />
 /// <reference path="./components/form.d.ts" />
@@ -10,7 +12,7 @@ declare namespace QuickApp
     interface IBaseComponent
     {
         //
-        template?(): any;
+        template(): any;
 
         //
         onInit?(): void;
@@ -20,10 +22,15 @@ declare namespace QuickApp
     /**
      * @see {@link https://doc.quickapp.cn/framework/script.html}
      */
-    interface IComponent<IData={}, IProps={}> extends IBaseComponent
+    interface IComponent extends IBaseComponent
     {
-        data?: IData;
-        props?: IProps;
+        data?: any;
+        props?: any;
+    }
+
+
+    interface IPageComponent extends IBaseComponent
+    {
     }
 }
 

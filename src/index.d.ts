@@ -1,5 +1,2 @@
-/// <reference path="./quickapp.d.ts" />
-/// <reference path="./jsx.d.ts" />
-/// <reference path="./module.d.ts" />
-
-
+/// <reference path="./quickapp/quickapp.d.ts" />
+/// <reference path="./module/module.d.ts" />
