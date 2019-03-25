@@ -31,6 +31,7 @@ declare namespace QuickApp
 
     interface IPageComponent extends IBaseComponent
     {
+        private?: any;
     }
 }
 
