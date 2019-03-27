@@ -25,5 +25,5 @@ npm i -D quick-types
 
 但是包名用@types开头的话，要去github DefinitelyTyped发pull request才行，暂时还没弄，所以先这样了。。
 
-#开源许可证
+# 开源许可证
 MIT
