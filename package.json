@@ -1,7 +1,12 @@
 {
   "name": "quick-types",
-  "version": "0.0.4",
-  "keywords": ["quickapp","hap","typescript","types"],
+  "version": "0.0.5",
+  "keywords": [
+    "quickapp",
+    "hap",
+    "typescript",
+    "types"
+  ],
   "description": ".d.ts files for quick app",
   "main": "./src/index.js",
   "files": [
