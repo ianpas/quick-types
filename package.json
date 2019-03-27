@@ -1,6 +1,7 @@
 {
   "name": "quick-types",
   "version": "0.0.4",
+  "keywords": ["quickapp","hap","typescript","types"],
   "description": ".d.ts files for quick app",
   "main": "./src/index.js",
   "files": [
@@ -9,6 +10,11 @@
   "types": "./src/index.d.ts",
   "scripts": {},
   "author": "ianpas",
+  "homepage": "https://github.com/ianpas/quick-types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianpas/quick-types"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.10.2",
