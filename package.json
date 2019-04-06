@@ -15,7 +15,7 @@
   "types": "./src/index.d.ts",
   "scripts": {},
   "author": "ianpas",
-  "homepage": "https://github.com/ianpas/quick-types",
+  "homepage": "https://ianpas.github.io/quick-ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/ianpas/quick-types"
